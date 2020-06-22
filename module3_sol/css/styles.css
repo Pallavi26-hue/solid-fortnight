@@ -1,0 +1,27 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+a{
+    text-align: center;
+    background-color: honeydew;
+}
+.navbar{
+    background-color: gray;
+
+}
+
+
+h2{
+    
+    padding-top: 15px;
+    padding-bottom: 30px;
+}
+.desktop{
+    height: 1000px;
+    font-size: medium;
+    background-color: lightgrey;
+    margin-left: 15px;
+    margin-right: 15px;
+    
+}
