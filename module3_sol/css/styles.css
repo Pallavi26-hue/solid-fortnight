@@ -1,5 +1,7 @@
 *{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+        box-sizing: border-box;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 a{
@@ -10,7 +12,9 @@ a{
     background-color: gray;
 
 }
-
+#row{
+    width: 100%;
+}
 
 h2{
     
@@ -25,4 +29,16 @@ h2{
     margin-right: 15px;
     padding: 15px;
     
+}
+
+
+#Chicken{
+    background-color: lightgrey;
+  
+}
+#beef{
+    background-color: lightgrey;
+}
+#sushi{
+    background-color: lightgrey;
 }
