@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+<body>
+
+
+  <blockquote
+ 
+  cite
+  ="http://www.worldwildlife.org/who/index.html">
+  For 50 years, WWF has been protecting the future of nature. The world's leading conservation organization, WWF works in 100 countries and is supported by 1.2 million members in the United States and close to 5 million globally.
+  </blockquote>
+  
+
+<div ng-app="myApp" ng-controller="myCtrl">
+    <p>Color: <input type="text" ng-model="color1" >
+              <input type="text" ng-model="color2" > 
+            <p> {{color1 + " " + color2}}</p>
+    </p>
+
+</div>
+
+<script>
+    var app = angular.module('myApp', []);
+    app.controller('myCtrl', function($scope) {
+      $scope.color1= "John";
+      $scope.color2= "Doe";
+    });
+    </script>
+
+</body>
+</html>
